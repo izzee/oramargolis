@@ -1,7 +1,7 @@
 <template>
   <footer class="pill">
     <p>© 2025</p>
-    <a href="mailto:">ora@email.com</a>
+    <a href="mailto:">contact@oramargolis.xyz</a>
   </footer>
 </template>
 
