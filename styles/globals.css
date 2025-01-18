@@ -8,7 +8,7 @@ a:not(:hover) {
 }
 
 .content {
-  background: url('./images/metal.png');
+  background: url('./images/metal.webp');
   background-size: 500px;
   font-family: "EB Garamond", serif;
   padding: 16px;
