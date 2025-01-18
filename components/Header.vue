@@ -1,10 +1,10 @@
 <template>
   <header>
-    <h1 class="pill">ORA MARGOLIS</h1>
+    <NuxtLink class="pill" to="/">ORA MARGOLIS</NuxtLink>
     <nav>
       <NuxtLink class="pill" to="/productions" disabled="true">PRODUCTIONS</NuxtLink>
       <NuxtLink class="pill" to="/about">ABOUT</NuxtLink>
-      <NuxtLink class="pill" to="/articles" >ARTICLES/SNS</NuxtLink>
+      <NuxtLink class="pill" to="/articles">ARTICLES/SNS</NuxtLink>
     </nav>
   </header>
 
@@ -19,20 +19,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 32px;
+    gap: inherit;
   }
 
-  h1 {
-
-  }
   nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 32px;
+    gap: inherit;
     a {
       padding: 16px 32px;
-      background: linear-gradient(#ffffff, #acacac);
     }
   }
 </style>

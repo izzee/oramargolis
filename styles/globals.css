@@ -3,27 +3,41 @@
   padding: 0;
 }
 
+a:not(:hover) {
+  text-decoration: none;
+}
+
 .content {
   background: url('./images/metal.png');
   background-size: 500px;
   font-family: "EB Garamond", serif;
-  padding: 32px;
+  padding: 16px;
   display: flex;
-  gap: 32px;
+  gap: 16px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100dvh;
   box-sizing: border-box;
+  min-height: 100dvh;
+
+  @media (min-width: 768px) {
+    height: 100dvh;
+    padding: 32px;
+    gap: 32px;
+  }
 }
 
 .pill {
   border-radius: 32px;
   padding: 16px 32px;
-  box-shadow: 0 0 24px #00000033, 0 0 24px #00000033 inset;
+  box-shadow: 0 0 24px #00000088, 0 0 24px #00000033 inset;
   background: linear-gradient(#ffffff, #acacac);
   color: #ffffff;
-  text-shadow: 2px 2px #686868;
-  font-size: 32px;
+  text-shadow: 1px 1px 1px #000000;
+  font-size: 24px;
   line-height: 1;
+
+  @media (min-width: 768px) {
+    font-size: 32px;
+  }  
 }

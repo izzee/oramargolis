@@ -17,13 +17,13 @@
     align-self: stretch;
     border: 4px solid #fff;
     background-color: #fff;
-    box-shadow: 0 0 24px #00000033, 0 0 24px #00000033 inset, -8px 0 24px #00000033 inset;
-
     display: flex;
     flex-direction: column;
     gap: 40px;
     padding: 64px 40px;
     font-size: 26px;
+    border-radius: 32px;
+
     
   }
 </style>

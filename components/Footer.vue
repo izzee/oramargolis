@@ -1,12 +1,13 @@
 <template>
   <footer class="pill">
-    <p>© 2025</p>
-    <a href="mailto:">contact@oramargolis.xyz</a>
+    <p>© {{currentYear}}</p>
+    <a href="mailto:contact@oramargolis.xyz">contact@oramargolis.xyz</a>
   </footer>
 </template>
 
-<script lang="ts" setup>
-
+<script setup>
+  import { computed } from 'vue'
+  const currentYear = computed(() => new Date().getFullYear())
 </script>
 
 <style lang="css" scoped>
