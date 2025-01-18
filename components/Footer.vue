@@ -13,8 +13,8 @@
 footer {
   display: flex;
   gap: 24px;
-      flex-wrap: wrap;
-    justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 
   a {
     color: white;
