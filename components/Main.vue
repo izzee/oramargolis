@@ -15,15 +15,22 @@
     overflow: scroll;
     flex: 1;
     align-self: stretch;
-    border: 4px solid #fff;
-    background-color: #fff;
+    border: 2px solid #fff;
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    padding: 64px 40px;
-    font-size: 26px;
+    gap: 24px;
+    padding: 32px 24px;
     border-radius: 32px;
 
-    
+    @media (min-width: 768px) {
+      padding: 64px 40px;
+      gap: 40px;
+      border: 4px solid #fff;
+
+    }
+
+
   }
+
+
 </style>

@@ -7,11 +7,14 @@ export default defineNuxtConfig({
     '@/styles/globals.css'
   ],
 
-  modules: ['@nuxtjs/google-fonts'],
+  modules: [
+    '@nuxtjs/google-fonts',
+    '@nuxt/content'
+  ],
 
   googleFonts: {
     families: {
-      "EB Garamond": '300..700'
+      Spectral: ['400'],
     }
   },
 })

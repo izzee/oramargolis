@@ -1,7 +1,9 @@
 <template>
   <footer class="pill">
     <p>© {{currentYear}}</p>
-    <a href="mailto:contact@oramargolis.xyz">contact@oramargolis.xyz</a>
+    <p>
+      <a href="mailto:contact@oramargolis.xyz">contact@oramargolis.xyz</a>
+    </p>
   </footer>
 </template>
 

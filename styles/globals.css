@@ -7,10 +7,28 @@ a:not(:hover) {
   text-decoration: none;
 }
 
+li,
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  @media (min-width: 768px) {
+    font-size: 24px;
+  }
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  @media (min-width: 768px) {
+    font-size: 32px;
+    line-height: 1.25;
+  }
+}
+
 .content {
-  background: url('./images/metal.webp');
+  background: url('../public/images/metal.webp');
   background-size: 500px;
-  font-family: "EB Garamond", serif;
+  font-family: 'Times New Roman', serif;
   padding: 16px;
   display: flex;
   gap: 16px;
@@ -41,3 +59,5 @@ a:not(:hover) {
     font-size: 32px;
   }  
 }
+
+       
