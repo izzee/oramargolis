@@ -19,8 +19,9 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
 
+  p,
   a {
-    color: white;
+    color: #ffffff;
   }
 }
 </style>

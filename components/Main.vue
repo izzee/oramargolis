@@ -1,5 +1,5 @@
 <template>
-  <main class="pill">
+  <main>
     <slot />
   </main>
 </template>
@@ -10,27 +10,23 @@
 
 <style lang="css" scoped>
   main {
-    color: #333;
-    text-shadow: none;
-    overflow: scroll;
-    flex: 1;
-    align-self: stretch;
-    border: 2px solid #fff;
+    padding: 32px 24px;
     display: flex;
     flex-direction: column;
     gap: 24px;
-    padding: 32px 24px;
+    flex: 1;
+    align-self: stretch;
+    border: 2px solid #fff;
     border-radius: 32px;
+    box-shadow: 0 0 24px #00000088, 0 0 24px #00000033 inset;
+    background-color: #fff;
+    color: #333;
+    overflow: scroll;
 
     @media (min-width: 768px) {
-      padding: 64px 40px;
+      padding: 48px 40px;
       gap: 40px;
       border: 4px solid #fff;
-
     }
-
-
   }
-
-
 </style>

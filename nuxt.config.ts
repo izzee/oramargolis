@@ -7,10 +7,7 @@ export default defineNuxtConfig({
     '@/styles/globals.css'
   ],
 
-  modules: [
-    '@nuxtjs/google-fonts',
-    '@nuxt/content'
-  ],
+  modules: ['@nuxtjs/google-fonts', '@nuxt/content', '@nuxt/image'],
 
   googleFonts: {
     families: {
