@@ -21,7 +21,9 @@ li {
 
 ul {
   list-style: inside;
-  list-style-image: url('./images/star.svg');
+  @media (min-width: 768px) {
+    list-style-image: url('./images/star.svg');
+  }
 }
 
 h2 {
