@@ -4,7 +4,7 @@
       <h2>Productions</h2>
       <div class="productions">
         <div class="production" v-for="(production, index) in doc.productions">
-          <NuxtImg src="./images/folder.png"/>
+          <NuxtImg src="/images/folder.png"/>
           <p @click="() => setActiveIndex(index)">{{production.title}}</p>
         </div>
       </div>
