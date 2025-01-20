@@ -158,12 +158,15 @@
   }
   .media-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     flex-direction: column;
     gap: 8px;
     img {
       width: 100%;
     }
+    @media (min-width: 768px) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
   }
 
 </style>
