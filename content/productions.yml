@@ -1,13 +1,83 @@
 productions:
   - title: 'Dorian Electra'
-    description: 'The Neo Tokyo Pop Up, sponsored by the Tokyo Metropolitan Ministry of Culture, showed predominately Japanese audiences brands/organizations on the cutting edge of culture. Sabukaru had a pop up featuring a live DJ’s, a customized gatchapon filled with stickers from our collaboration up-and-coming artists, a artist installation, customized merchandise, and vintage Japanese movie posters.'
+    link: 
+      src: 'https://www.instagram.com/p/C4xvRgShNIV/?hl=en&img_index=1'
+      title: 'instagram'
+    media: 
+      - src: images/productions/dorian-electra/001.JPG 
+        type: image
+      - src: images/productions/dorian-electra/007.JPG 
+        type: image
+      - src: images/productions/dorian-electra/026.jpg
+        type: image
+  
   - title: 'Muscle Girls'
-    description: 'The Neo Tokyo Pop Up, sponsored by the Tokyo Metropolitan Ministry of Culture, showed predominately Japanese audiences brands/organizations on the cutting edge of culture. Sabukaru had a pop up featuring a live DJ’s, a customized gatchapon filled with stickers from our collaboration up-and-coming artists, a artist installation, customized merchandise, and vintage Japanese movie posters.'
+    media:
+      - src: images/productions/muscle-girls/0S8A3729.jpg 
+        type: image
+      - src: images/productions/muscle-girls/0S8A3736.jpg 
+        type: image
+      - src: images/productions/muscle-girls/0S8A3850.jpg 
+        type: image
+      - src: images/productions/muscle-girls/0S8A3991.jpg 
+        type: image
+      - src: images/productions/muscle-girls/0S8A4043.jpg 
+        type: image
+      - src: images/productions/muscle-girls/0S8A4098.jpg
+        type: image
+  
   - title: 'Neo Tokyo Pop Up'
     description: 'The Neo Tokyo Pop Up, sponsored by the Tokyo Metropolitan Ministry of Culture, showed predominately Japanese audiences brands/organizations on the cutting edge of culture. Sabukaru had a pop up featuring a live DJ’s, a customized gatchapon filled with stickers from our collaboration up-and-coming artists, a artist installation, customized merchandise, and vintage Japanese movie posters.'
+    media:
+      - src: images/productions/neo-tokyo/IMG_7674.jpeg 
+        type: image
+      - src: images/productions/neo-tokyo/IMG_7676.jpeg 
+        type: image
+      - src: images/productions/neo-tokyo/IMG_7736.jpeg 
+        type: image
+      - src: images/productions/neo-tokyo/IMG_7781.jpeg 
+        type: image
+      - src: images/productions/neo-tokyo/IMG_7794.jpeg 
+        type: image
+      - src: images/productions/neo-tokyo/IMG_7827.jpeg 
+        type: image
+      - src: images/productions/neo-tokyo/IMG_7942.jpeg 
+        type: image
+      - src: images/productions/neo-tokyo/IMG_7956.jpeg
+        type: image
+  
   - title: 'Ora Eats'
-    description: 'The Neo Tokyo Pop Up, sponsored by the Tokyo Metropolitan Ministry of Culture, showed predominately Japanese audiences brands/organizations on the cutting edge of culture. Sabukaru had a pop up featuring a live DJ’s, a customized gatchapon filled with stickers from our collaboration up-and-coming artists, a artist installation, customized merchandise, and vintage Japanese movie posters.'
+    description: "SABU EATS, is a video series that explores hidden gems in and around Tokyo, that found by getting to know local spots and forming relationships with their owners/communities. I hosted and produced select episodes, choosing locations, liasoning with staff, writing narration, and creative direction."
+    links:
+      - title: 'Sabu Eats: Aroma Cafe/Coffee Ramen'
+        src: https://www.instagram.com/sabukaru.online/reel/CxA8el9BTUV/
+      - title: 'Museum of Roadside Art'
+        src: 'https://www.instagram.com/sabukaru.online/reel/CyLNUoeBi87/'
+      - title: 'Sabu Eats: 27 Club'
+        src: https://www.instagram.com/sabukaru.online/reel/C3ptTxYhu6j/
+      - title: 'Sabu Eats: Mini Stop'
+        src: https://www.instagram.com/sabukaru.online/reel/CwywjkFBnS5/
+
   - title: "sabukaru & RISE ABOVE GALLERY at Henry's Pizza"
-    description: 'The Neo Tokyo Pop Up, sponsored by the Tokyo Metropolitan Ministry of Culture, showed predominately Japanese audiences brands/organizations on the cutting edge of culture. Sabukaru had a pop up featuring a live DJ’s, a customized gatchapon filled with stickers from our collaboration up-and-coming artists, a artist installation, customized merchandise, and vintage Japanese movie posters.'
+    description: 'Sabukaru and RISE ABOVE Gallery located in Osaka featuring an exhibition of some of Japan and beyond’s best up and coming artists alongside and a amazing line up of DJs.'
+    media: 
+      - src: '/images/productions/rise-above-gallery/828a796839d08632570f9af6e9b18c4d-1.png'
+        type: image
+  
   - title: 'The Pink Room Editorial: Kate Ahn'
-    description: 'The Neo Tokyo Pop Up, sponsored by the Tokyo Metropolitan Ministry of Culture, showed predominately Japanese audiences brands/organizations on the cutting edge of culture. Sabukaru had a pop up featuring a live DJ’s, a customized gatchapon filled with stickers from our collaboration up-and-coming artists, a artist installation, customized merchandise, and vintage Japanese movie posters.'
+    description: 'Creative Direction, Production, and Casting for a Sabukaru X Kate Ahn editorial'
+    media: 
+      - src: images/productions/pink-room/KateAhn_SABU13.jpg 
+        type: image
+      - src: images/productions/pink-room/KateAhn_SABU04.jpg 
+        type: image
+      - src: images/productions/pink-room/KateAhn_SABU05.jpg 
+        type: image
+      - src: images/productions/pink-room/KateAhn_SABU06.jpg 
+        type: image
+      - src: images/productions/pink-room/KateAhn_SABU10.jpg 
+        type: image
+      - src: images/productions/pink-room/KateAhn_SABU11.jpg 
+        type: image
+      - src: images/productions/pink-room/KateAhn_SABU12.jpg
+        type: image
