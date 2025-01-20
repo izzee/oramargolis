@@ -2,10 +2,7 @@
   <header>
       
     <NuxtLink class="pill" to="/">
-      <NuxtImg src="/images/star.svg"/>
-      ORA MARGOLIS
-      <NuxtImg src="/images/star.svg"/>
-
+      ★ ORA MARGOLIS ★ 
     </NuxtLink>
     <nav>
       <NuxtLink class="pill" to="/productions" disabled="true">PRODUCTIONS</NuxtLink>
