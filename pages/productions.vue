@@ -3,9 +3,9 @@
     <Main v-if="activeIndex === null">
       <h2>Productions</h2>
       <div class="productions">
-        <div class="production" v-for="(production, index) in doc.productions">
+        <div class="production" v-for="(production, index) in doc.productions" @click="() => setActiveIndex(index)">
           <NuxtImg src="/images/folder.png"/>
-          <p @click="() => setActiveIndex(index)">{{production.title}}</p>
+          <p>{{production.title}}</p>
         </div>
       </div>
 
@@ -78,7 +78,7 @@
     text-align: center;
     justify-content: flex-start;
     gap: 8px;
-
+    cursor: pointer;
     img {
       max-width: 100px;
     }
@@ -87,7 +87,6 @@
       padding: 4px 8px;
       border-radius: 4px;
       line-height: 1;
-      cursor: pointer;
     }
 
     &:hover {
