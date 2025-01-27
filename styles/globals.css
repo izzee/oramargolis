@@ -43,7 +43,7 @@ h2 {
 .content {
   background: url('../public/images/metal.webp');
   background-attachment: fixed;
-  background-size: 500px;
+  background-size: 400px;
   font-family: 'Times New Roman', serif;
   padding: 16px;
   display: flex;
