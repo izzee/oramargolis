@@ -42,6 +42,7 @@ h2 {
 
 .content {
   background: url('../public/images/metal.webp');
+  background-attachment: fixed;
   background-size: 500px;
   font-family: 'Times New Roman', serif;
   padding: 16px;
@@ -61,7 +62,7 @@ h2 {
 }
 
 .pill {
-  border-radius: 32px;
+  border-radius: 40px;
   padding: 16px 32px;
   box-shadow: 0 0 24px #00000088, 0 0 24px #00000033 inset;
   background: linear-gradient(#ffffff, #acacac);
