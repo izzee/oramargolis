@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+	overscroll-behavior-y: none;  
+}
+
 a:not(:hover) {
   text-decoration: none;
 }
